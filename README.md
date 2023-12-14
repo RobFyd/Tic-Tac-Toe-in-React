@@ -10,7 +10,7 @@
 
 ### Technologies:
 
-![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,git,vscode)
+![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,github,vscode)
 
 - React
 - JS
