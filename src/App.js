@@ -36,7 +36,7 @@ function Board() {
     status = "Next player: " + (xIsNext ? "X" : "0");
   }
 
-  function Reset() {
+  function Reset({ setSquares }) {
     return (
       <button
         className="resetButton"
@@ -68,7 +68,7 @@ function Board() {
         </div>
       </div>
       <div className="reset">
-        <Reset />
+        <Reset setSquares={setSquares} />
       </div>
     </div>
   );
