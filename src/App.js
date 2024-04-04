@@ -57,7 +57,7 @@ function Board() {
         </div>
       </div>
       <div className="reset">
-        <button onClick={() => setSquares(Array(9).fill(null))}>Reset</button>
+        <button className="resetButton" onClick={() => setSquares(Array(9).fill(null))}>Reset</button>
       </div>
     </div>
   );

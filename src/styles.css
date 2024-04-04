@@ -96,3 +96,19 @@ ul {
 .game-info {
   margin-left: 20px;
 }
+
+.reset {
+  margin: 30px;
+}
+
+.resetButton {
+  background-color: antiquewhite;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.resetButton:hover {
+  background-color: lightpink;
+}
