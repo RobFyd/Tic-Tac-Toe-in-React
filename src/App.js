@@ -56,6 +56,9 @@ function Board() {
           <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
         </div>
       </div>
+      <div className="reset">
+        <button onClick={() => setSquares(Array(9).fill(null))}>Reset</button>
+      </div>
     </div>
   );
 }
