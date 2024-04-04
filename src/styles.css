@@ -77,6 +77,10 @@ ul {
   width: 50px;
 }
 
+.square:hover {
+  background-color: rgb(5, 24, 24);
+}
+
 .board-row:after {
   clear: both;
   content: '';
