@@ -4,9 +4,18 @@
 
 ## A very simple game created during practice on the official React website.
 
-Screenshot:
+### Screenshot:
 
 ![](https://github.com/RobFyd/Tic-Tac-Toe-in-React/blob/main/public/screen-shot.png?raw=true)
+
+### Technologies:
+
+![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,github,vscode)
+
+- React
+- JS
+- HTML
+- CSS
 
 If you want to learn more and test the functionality of my tool, click below:
 
