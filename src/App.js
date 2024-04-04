@@ -36,6 +36,17 @@ function Board() {
     status = "Next player: " + (xIsNext ? "X" : "0");
   }
 
+  function Reset() {
+    return (
+      <button
+        className="resetButton"
+        onClick={() => setSquares(Array(9).fill(null))}
+      >
+        Reset
+      </button>
+    );
+  }
+
   return (
     <div className="wraper">
       <div className="status">{status}</div>
@@ -57,7 +68,7 @@ function Board() {
         </div>
       </div>
       <div className="reset">
-        <button className="resetButton" onClick={() => setSquares(Array(9).fill(null))}>Reset</button>
+        <Reset />
       </div>
     </div>
   );
