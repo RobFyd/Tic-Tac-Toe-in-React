@@ -57,7 +57,7 @@ ul {
   color: antiquewhite;
   margin-top: 50px;
   margin-bottom: 50px;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: bold;
 }
 
@@ -66,15 +66,15 @@ ul {
   color: antiquewhite;
   border: 2px solid white;
   float: left;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 34px;
-  height: 50px;
+  height: 80px;
+  width: 80px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 50px;
   cursor: pointer;
 }
 
@@ -98,7 +98,7 @@ ul {
 }
 
 .reset {
-  margin: 30px;
+  margin: 40px;
 }
 
 .resetButton {
@@ -107,6 +107,9 @@ ul {
   padding: 5px;
   cursor: pointer;
   border-radius: 5px;
+  width: 80px;
+  height: auto;
+  font-size: large;
 }
 
 .resetButton:hover {
